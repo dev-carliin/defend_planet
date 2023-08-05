@@ -1,0 +1,30 @@
+html {
+    overflow: hidden;
+    height: 100%;
+    background: #191919;
+    width: 100%;
+}
+
+
+
+#canvas.playing {
+    cursor: url('aim_red.png') 17.5 17.5,auto !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
